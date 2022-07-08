@@ -33,6 +33,7 @@ namespace DBWebMVCAPP.Controllers
         {
             return View();
         }
+        //Hi this is new comment
 
         [HttpPost]
         public ActionResult Insert(int id, string name, string designation,double salary)
